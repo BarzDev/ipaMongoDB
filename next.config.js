@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  main: "./server.js",
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
